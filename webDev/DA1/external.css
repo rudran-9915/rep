@@ -1,0 +1,29 @@
+body
+{
+background: grey;
+}
+.container
+{
+width: 60%;
+margin-left: 35%;
+margin-top: 5%;
+}
+.container .main
+{
+background: #cfcfcf;
+padding: 2%;
+}
+.container .main h2
+{
+text-transform: capitalize;
+font-size: 200%;
+font-weight: 900;
+} 
+.para p
+{
+padding: 1%; 
+border-top: 2px dotted black; 
+border-bottom: 2px dashed black;
+border-left: 2px solid black; 
+border-right: 2px solid black;
+}

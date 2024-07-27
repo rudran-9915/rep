@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table border="1" cellpadding="1" cellspacing="0.1px" align="center" bgcolor="aqua" bordercolor="red">
+            <tr><td>Register No</td><td><input type="text" name="regno" maxlength="15"></td></tr>
+            <tr><td>Name</td><td><input type="text" name="name" maxlegth="20"></td></tr>
+            <tr><td>Gender</td><td><input type="radio" name="gender" value="male">male<br/>
+            <input type="radio" name="gender" value="female" checked>female</td></tr>
+            <tr><td>Course</td><td><input type="checkbox" name="course" value="cn">CN<br/>
+                <input type="checkbox" name="course" value="os" checked>OS<br/>
+                <input type="checkbox" name="course" value="pcs">PCS<br/>
+                <input type="checkbox" name="course" value="html">HTML
+            </td></tr>
+            <tr><td>Country</td>
+                <td>
+                <select name="country" size="3">
+                    <option selected>india</option>
+                    <option>england</option>
+                    <option>londan</option>
+                    <option>swedan</option>
+                    <option>natherlands</option>
+                </select>
+            </td></tr>
+            <tr><td>CV</td><td><input type="file" name="fileupload" accept=""></td></tr>
+            <tr><td><input type="submit" value="register"></td>
+                <td><input type="reset" value="reset all the values"></td></tr>
+        </table>
+    </form>
+</body>
+</html>

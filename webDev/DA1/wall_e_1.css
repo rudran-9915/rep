@@ -1,0 +1,44 @@
+html,body
+{
+margin: 0;
+padding: 2% 7.5% ;
+background: grey;
+}
+.container
+{
+padding: 20px;
+background: white;
+}
+.main-heading
+{
+text-align: center;
+}
+.nav-bar
+{
+margin: 4% 0;
+}
+.nav-bar a
+{
+text-decoration: none;
+color: white;
+background: #000000;
+padding: 0 20px;
+margin-right: 3px;
+}
+.poster-image, .rating, .metascore
+{
+display: inline-block;
+vertical-align: top;
+}
+.rating
+{
+background: green;
+color: white;
+font-size: 30pt;
+padding: 20px;
+margin: 5px;
+}
+.metascore
+{
+width: 50%;
+}
